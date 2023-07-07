@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-info">
+        <div class="game-name">Hangman</div>
+        <div class="category">
+          word from: <span></span>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="hangman-drow">
+          <div class="the-draw">
+            <div class="the-stand"></div>
+            <div class="the-hang"></div>
+            <div class="the-rope"></div>
+            <div class="the-man">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="hands"></div>
+              <div class="legs"></div>
+            </div>
+          </div>
+        </div>
+        <div class="letters"></div>
+      </div>
+      <hr>
+      <div class="letter-guess"></div>
+    </div>
+    <audio id = "success" src="y2mate.com - Success Sound Effect.mp3"></audio>
+    <audio id = "fail" src="y2mate.com - Error 404  Sound Effects.mp3"></audio>
+    <audio id = "successend" src="y2mate.com - Success sound effect copyright free.mp3"></audio>
+    <audio id = "failend" src="y2mate.com - Epic Fail Sound Effect.mp3"></audio>
+
+  </body>
+  <script src="main.js"></script>
+</html>
